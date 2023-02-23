@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "sunrise" # "dirt", "air", "default", "air", "aqua", "contrast", "dark", "neon", "mint", "plum"
+minimal_mistakes_skin: "contrast" # "sunrise", "dirt", "air", "default", "air", "aqua", "dark", "neon", "mint", "plum"
 
 # Site Settings
 locale: "en-US"
@@ -105,7 +105,7 @@ analytics:
 author:
   name: "sejin"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "game developer"
+  bio: "Develop"
   location: "Korea"
   email:
   links:
