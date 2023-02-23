@@ -15,7 +15,7 @@
 minimal_mistakes_skin: "contrast" # "sunrise", "dirt", "air", "default", "air", "aqua", "dark", "neon", "mint", "plum"
 
 # Site Settings
-locale: "en-US"
+locale: "ko-KR"
 title: "뇌피셜 개발"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
