@@ -105,13 +105,13 @@ analytics:
 author:
   name: "sejin"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Develop"
+  bio: "Develop<br>Email: ckd1675@naver.com"
   location: "South Korea"
-  email: "ckd1675@naver.com"
+  email: # "ckd1675@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ckd1675@naver.com"
+      # url: "mailto:ckd1675@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
