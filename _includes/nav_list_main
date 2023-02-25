@@ -5,7 +5,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
       <li>
-            <h6>전체 글 수 {{sum}} 개</h6>
+            <small>전체 글 수 {{sum}} 개</small>
       </li>
       <li>
         <span class="nav__sub-title">Computer Science</span>
