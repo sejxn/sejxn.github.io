@@ -17,13 +17,13 @@
 {% assign cat_list = site.categories[cat] %}
 {% for post in cat_list %}
   {% if post.url == page.url %}
-  	{% assign pOffset = forloop.index0 | minus: 1 %}
-  	{% assign nOffset = pOffset | plus: 2 %}
+  	{% assign prevIndex = forloop.index0 | minus: 1 %}
+  	{% assign nextIndex = forloop.index0 | plus: 1 %}
   	{% if forloop.first == false %}
-  	  {% assign next_post = cat_list[pOffset] %}
+  	  {% assign next_post = cat_list[prevIndex] %}
   	{% endif %}
   	{% if forloop.last == false %}
-  	  {% assign previous_post = cat_list[nOffset] %}
+  	  {% assign prev_post = cat_list[nextIndex] %}
   	{% endif %}
   	{% break %}
   {% endif %}
