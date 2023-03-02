@@ -17,19 +17,19 @@
 {% assign cat_list = site.categories[cat] %}
 {% for post in cat_list %}
   {% if post.url == page.url %}
-  	{% assign prevIndex = forloop.index0 | minus: 1 %}
-  	{% assign nextIndex = forloop.index0 | plus: 1 %}
+  	{% assign pOffset = forloop.index0 | minus: 1 %}
+  	{% assign nOffset = pOffset | plus: 2 %}
   	{% if forloop.first == false %}
-  	  {% assign next_post = cat_list[prevIndex] %}
+  	  {% assign next_post = cat_list[pOffset] %}
   	{% endif %}
   	{% if forloop.last == false %}
-  	  {% assign prev_post = cat_list[nextIndex] %}
+  	  {% assign previous_post = cat_list[nOffset] %}
   	{% endif %}
   	{% break %}
   {% endif %}
 {% endfor %}
 
-{% if prev_post or next_post %}
+<!-- {% if prev_post or next_post %}
   <nav class="pagination">
     {% if prev_post %}
       <a href="{{ prev_post.url }}" class="pagination--pager">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
@@ -42,4 +42,4 @@
       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
     {% endif %}
   </nav>
-{% endif %}
+{% endif %} -->
