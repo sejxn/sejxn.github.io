@@ -158,7 +158,7 @@
 .pagination_prev_next {
   @include clearfix();
   float: left;
-  width: 100%;
+  width: 50%;
 
   /* next/previous buttons */
   &--pager {
@@ -179,7 +179,7 @@
 
     .prev_next {
       font-family: "Pretendard-Regular";
-      color:#ffd861;
+      color:#333333;
     }
   }
 }
