@@ -105,7 +105,7 @@ analytics:
 author:
   name: "sejin"
   avatar: "/assets/images/star.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "게임 개발자 호소인<br>Email: ckd1675@naver.com"
+  bio: "Email: ckd1675@naver.com"
   location: "South Korea"
   email: # "ckd1675@naver.com"
   links:
