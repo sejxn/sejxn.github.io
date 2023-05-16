@@ -16,7 +16,7 @@
         <span class="nav__sub-title">Algorithm</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
+                    {% if category[0] == "Boj" %}
                         <li><a href="/categories/Boj" class="">Boj ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
